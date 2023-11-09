@@ -1,0 +1,194 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.callnumber{
+    width: 100%;
+    background-color: rgb(55, 115, 184);
+}
+.callnumber h2{
+    width: 100%;
+    padding: 20px 0px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+
+}
+.callnumber h2:hover{
+    text-decoration: underline;
+}
+.firstimg{
+    height: 65vh;
+}
+.imgright img {
+    position: absolute;
+    width: 100%;
+    padding: 0 1vh;
+}
+.textleft{
+    z-index: 4;
+    top:125px;
+    left: 30px;
+    width: 40%;
+    padding:0vh 5vh 0 13vh;
+    position: relative;
+}
+.textleft h2{
+    
+    font-size: 38px;
+    font-weight: 500;
+    
+}
+.textleft p{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.textleft button{
+    margin-top: 20px;
+    padding: 0.8vh 1.8vh;
+    background-color: rgb(55, 115, 184);
+    color: white;
+    border: none;
+}
+.textleft button:hover{
+    background-color: rgb(49, 101, 160);
+}
+
+.btnsa{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+.btnsa button{
+    width: 5%;
+    border: none;
+}
+.secimg{
+    height: 65vh;
+    display: none;
+}
+.imgleft img {
+    position: absolute;
+    width: 100%;
+    padding: 0 1vh;
+}
+.textright{
+    text-align: end;
+    z-index: 4;
+    top:125px;
+    right: 30px;
+    width: 100%;
+    padding:0vh 5vh 0 13vh;
+    position: relative;
+}
+.textright h2{
+    
+    font-size: 38px;
+    font-weight: 500;
+    
+}
+.textright p{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.textright button{
+    margin-top: 20px;
+    padding: 0.8vh 1.8vh;
+    background-color: rgb(55, 115, 184);
+    color: white;
+    border: none;
+}
+.textright button:hover{
+    background-color: rgb(49, 101, 160);
+}
+.textleft a{
+   margin-left: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.textleft a:hover{
+    text-decoration:underline;
+}
+.icons{
+    display: flex;
+    text-align:center ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 42vh;
+  
+}
+
+.ficon{
+    padding-right: 60px;
+
+}
+.ficon a{
+    color:rgb(17, 85, 161) ;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+
+}
+.card{
+    border: none;
+    width: 300px;
+ 
+    height: 50vh;
+}
+.card a{
+    color:rgb(17, 85, 161) ;
+    font-weight: 700;
+    text-decoration: none;
+    padding-top: 25px;
+}
+.card a:hover{
+    text-decoration: underline;
+}
+.card h1{
+    font-size: 30px;
+}
+.card p{
+    font-size: 15px;
+    padding-top: 25px;
+}
+.aiimg img {
+    position: absolute;
+    width: 100%;
+    padding: 0 10vh;
+}
+.business{
+    width: 100%;
+    padding: 0 10vh;
+}
+.follow{
+    display: flex;
+    margin: 10vh 9vh 10vh 9vh;
+   
+}
+.follow h1{
+    font-size: 18px;
+    font-weight: 400;
+}
+.follow i{
+    font-size: 24px;
+    padding-left: 4vh;
+}
+
+
+
+

@@ -1,0 +1,38 @@
+.first{
+    display: flex;
+    flex-wrap: wrap;
+   }
+.body{
+   filter: blur(10px);
+    
+   }
+   #ms365{
+   
+    position: relative;
+    top: -400px;
+    right: 80px;
+    padding-left: 54%;
+    text-align: left;
+   }
+   #bu{
+    position: relative;
+    top: -400px;
+    right: 80px;
+    padding-left: 54%;
+    
+   }
+   .one{
+    
+    color: white;
+    background-color: rgb(0, 106, 255);
+    padding: 3px;
+    width: 250px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    margin-top: 14px;
+    height: 40px;
+    border: none;
+    font-size:16px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }

@@ -1,0 +1,342 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+.callnumber{
+    width: 100%;
+    background-color: rgb(55, 115, 184);
+}
+.callnumber h2{
+    width: 100%;
+    padding: 20px 0px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+
+}
+.callnumber h2 a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.callnumber h2 a:hover{
+    text-decoration: underline;
+}
+.firstimg{
+    height: 75vh;
+}
+
+.imgright img {
+    position: absolute;
+    width: 99%;
+    padding: 0 1vh;
+}
+.textleft{
+    z-index: 4;
+    top:95px;
+    left: 30px;
+    width: 40%;
+    padding:0vh 5vh 0 13vh;
+    position: relative;
+}
+.textleft h2{
+    
+    font-size: 49px;
+    font-weight: 600;
+    
+}
+.textleft p{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.textleft .button1{
+    margin-top: 20px;
+    padding: 1vh 2vh;
+    background-color: rgb(55, 115, 184);
+    color: white;
+    border: none;
+}
+.textleft .button1:hover{
+    background-color: rgb(49, 101, 160);
+}
+
+.textleft .button2{
+    padding: 1vh 2vh;
+   margin-left: 30px;
+    font-size: 16px;
+    border: 2px solid rgb(55, 115, 184);
+    color: rgb(55, 115, 184);
+   
+}
+.textleft .button2:hover{
+background-color: antiquewhite;
+}
+.pos{
+    width: 100%;
+    text-align: center;
+}
+.pos .poss p{
+    padding: 5vh 54vh 0 54vh;
+}
+.pos .poss h1{
+    font-size: 36px;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+
+}
+.card{
+    border: none;
+    width: 300px;
+    height: 50vh;
+}
+.card a{
+    color:rgb(17, 85, 161) ;
+    font-weight: 700;
+    text-decoration: none;
+    padding-top: 25px;
+}
+.card a:hover{
+    text-decoration: underline;
+}
+.news{
+    width: 100%;
+    display: flex;
+    align-items:first baseline;
+    justify-content: space-evenly;
+}
+.newsh1{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+.news .cardnews{
+    width: 28%;
+    text-align: center;
+}
+.news .cardnews img{
+    width: 100%;
+}
+.news .cardnews h1{
+    font-size: 30px;
+   
+    padding-bottom: 3vh;
+}
+.news .cardnews p{
+    font-size: 14px;
+   padding-bottom: 3vh;
+}
+.news .cardnews a{
+    width: 100%;
+   
+    color: rgb(17, 85, 161);
+}
+.dw{
+    width: 100%;
+}
+.dw .dropbtn{
+    width: 35%;
+}
+.seetitle{
+    width: 100%;
+    text-align: center;
+    padding: 6vh 0vh;
+}
+.lead{
+    display: flex;
+    width: 100%;
+    align-items:baseline;
+    justify-content: space-evenly;
+}
+.lead1{
+    width: 45%;
+    border: 1px solid rgb(207, 207, 207);
+    padding: 15px;
+}
+.lead1 h2{
+    font-size: 23px;
+    font-weight: 600;
+    padding-bottom: 3vh;
+}
+.lead1 p{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 3vh;
+}
+.lead1 a{
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(17, 85, 161);
+}
+.ex{
+    width: 100%;
+    text-align: center;
+    margin: 6vh 0;
+}
+.chat{
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+.phone{
+    width: 40%;
+    margin-bottom: 16vh;
+}
+.phone img{
+    width: 100%;
+}
+.phone h1{
+    font-size: 24px;
+    padding-bottom: 4vh;
+    font-weight: 600;
+}
+.phone p{
+    font-size: 16px;
+    padding-bottom: 4vh;
+    font-weight: 400;
+}
+.phone a{
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(17, 85, 161);
+}
+.start{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(17, 85, 161);
+    height: 70vh;
+   
+}
+.sleft{
+    width: 40%;
+}
+.sright{
+    width: 40%;
+    display: block;
+    padding-left:25vh;
+    color: white;
+}
+.sleft h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 3vh;
+}
+.sign{
+    padding: 6px 10px;
+font-size: 17px;
+font-weight: 400;
+border: none;
+margin-right: 6vh;
+}
+.download{
+    padding: 6px 10px;
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+    background-color: rgb(17, 85, 161);
+    border: 2px solid white;
+
+}
+.sright h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 1.5vh;
+}
+.sright a{
+    color: white;
+  text-decoration: none;
+}
+.sright a:hover{
+    text-decoration: underline;
+}
+.hbee{
+    margin-bottom: 4vh;
+}
+.ico{
+    display: flex;
+}
+.ic i{
+    color: white;
+    font-size: 55px;
+}
+.ai{
+    font-size: 14px;
+    display: flex;
+    width: 100%;
+    padding: 9vh;
+}
+.ai a{
+    color: rgb(9, 132, 209);
+}
+.follow{
+    display: flex;
+    margin: 10vh 9vh 10vh 9vh;
+   
+}
+.follow h1{
+    font-size: 18px;
+    font-weight: 400;
+}
+.follow i{
+    font-size: 24px;
+    padding-left: 4vh;
+}
+.dw{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.dropbtn{
+    width: 35%;
+}
+.chats{
+    display: block;
+}
+.dis{
+    width: 55%;
+    
+}
+.dis img{
+    width: 100%;
+display: none;
+}
+.a,.b,.c,.d{
+    border: none;
+    height: 9vh;
+    font-size: 20px;
+}
+li{
+    overflow-y:hidden ;
+   
+}
+.drop1,.drop2,.drop3,.drop4{
+    display: none;
+    padding: 1vh 3.5vh;
+}
+.drop1 button,.drop2 button,.drop3 button,.drop4 button{
+    margin-top: 20px;
+    padding: 1vh 2vh;
+    background-color: rgb(55, 115, 184);
+    color: white;
+    border: none;
+}
